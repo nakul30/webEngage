@@ -76,7 +76,7 @@ module.exports.generateCSV = async(req, res) => {
     }
     catch(err){
         console.error("Error in generateCSV",err);
-        res.status(500).json({message: 'Internal Server Error.Try Restarting the server again or uncomment line 10-15 and comment line 34-45'});
+        res.status(500).json({message: 'Internal Server Error.Try Restarting the server again or uncomment line 10-15 and comment line 34-45 from controller'});
 
     }
 
