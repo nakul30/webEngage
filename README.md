@@ -24,7 +24,7 @@ The Webengage Assignment is a project that creates an Express.js route to integr
 
 ## Usage
 
-* The server will be running at `http://localhost:4000`.
+* The server will be running at `http://localhost:4000` or `http://localhost:PORT`.
 * The project has a single route, `/generate-csv`, which can be accessed at `http://localhost:4000/generate-csv`.
 
 
